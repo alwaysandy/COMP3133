@@ -10,6 +10,7 @@ import {Hero} from '../hero';
 import {HEROES} from '../mock-heroes';
 import {RemoveSpacesPipe} from "../remove-spaces.pipe";
 import {InputFormatDirective} from "../input-format.directive";
+import {HeroDetailComponent} from "../hero-detail/hero-detail.component";
 
 @Component({
   standalone: true,
@@ -23,6 +24,7 @@ import {InputFormatDirective} from "../input-format.directive";
     UpperCasePipe,
     RemoveSpacesPipe,
     InputFormatDirective,
+    HeroDetailComponent,
   ],
 })
 
